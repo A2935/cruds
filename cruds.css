@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #223366;
+    font-family: monospace;
+}
+
+.total {
+    width: 85%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 10px 0;
+
+}
+
+section {
+    width: 100%;
+    height: 20px;
+    margin: 0 15px;
+    /* display: flex; */
+
+}
+
+#title,
+#count,
+#category,
+#search {
+    width: 85%;
+}
+
+input {
+    outline: none;
+    border: none;
+    background: black;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+    color: #fffff0;
+}
+
+input:focus {
+    background-color: #663311;
+
+}
+
+mark {
+    border-radius: 10px;
+    height: auto;
+    padding: 6px;
+    content: 'Total:';
+}
+
+mark::before {
+    content: 'Total:';
+}
+
+button {
+    width: 85%;
+    margin: 0 5px;
+    background-color: #fffff0;
+    font-size: 15px;
+    border-radius: 11px;
+    padding: 10px;
+    color: black;
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #4f0080;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+footer {
+    width: 100%;
+    margin-top: 250px;
+
+    justify-content: center;
+    align-items: center;
+
+}
+
+#search {
+
+    margin: 8px 18px;
+    padding: 10px;
+}
+
+.searchBlok {
+    width: 100%;
+    margin: 5px 0;
+
+}
+
+.butSerch {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    width: 88%;
+    margin: 0 10px;
+}
+
+table {
+    width: 90%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+tr {
+    text-transform: uppercase;
+}
+
+
+th {
+    padding: 5px;
+}
+
+#ubdate,
+#delate {
+    width: 10%;
+    margin: 0;
+    padding: 6px;
+}
+
+#deletALL{
+    margin-left: 20px;
+}
